@@ -1,0 +1,39 @@
+.footer{
+    height: 15rem;
+    width: 100%;
+    margin-top: 10rem;
+    background-color: var(--head);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.footer>:nth-child(1){
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.footer>:nth-child(2){
+    font-size:1.2rem;
+    padding: 4px;
+}
+
+
+.footer>:nth-child(3){
+    font-size:1.2rem;
+    
+}
+
+.footer>:nth-child(3) span{
+    font-size:1.2rem;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+.icons{
+    font-size: 2rem;    
+}
+
+.iconsName{
+    padding: 1rem;
+}

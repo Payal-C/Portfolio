@@ -1,0 +1,69 @@
+.skills{
+    padding: 2rem;
+    margin-top: 2rem;
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+
+.skills h1{
+    margin-left: 50%;
+}
+
+
+.inner-skills-box{
+    background-image: var(--linearcolor2);
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: -2rem;
+}
+.coding{
+    width: 30%;
+    margin:0rem 3rem 4rem 25rem;
+    
+}
+
+.coding h2, .design h2{
+    font-size: 1.5rem;
+    color: var(--fontcolor);
+}
+
+.skills progress{
+    width: 20rem;
+    height: 1.1rem;
+    border: none;
+    background: var(--head);
+    transition: 2s;
+}
+
+
+progress{
+    color:var(--haed2);
+}
+
+progress::-webkit-progress-value {
+    background: var(--head2);
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightcolor;
+  }
+
+.coding span,
+.design span
+{
+    margin-left: 10rem;
+}
+
+.design{
+    width: 60%;
+    margin-top: 0rem ;
+    float: left;
+}
+
+.skills div{
+    font-size: 1rem;
+    padding: 0.6rem;
+}

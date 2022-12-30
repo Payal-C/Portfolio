@@ -1,0 +1,55 @@
+.Exp{
+    height: 48rem;
+    width: 100%;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    background-image: var(--linearcolor1);
+}
+
+.e-box{
+    display: flex;
+    gap: 1rem;
+    margin-top: -2rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.e-box1,
+.e-box2,
+.e-box3{
+    position: relative;
+}
+.e-container1,
+.e-container2
+{
+    overflow: hidden;
+    padding: 1rem;
+    width: 50%;
+    position: relative;
+    border-left: .2rem solid var(--head);
+}
+
+
+
+.year{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.e-data{
+    padding: .8rem;
+    
+}
+
+.e-data span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.e-data p{
+    font-size: 1rem;
+}

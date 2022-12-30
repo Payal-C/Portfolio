@@ -1,0 +1,48 @@
+.port{
+    height: 45rem;
+    width: 100%;
+    background-color:beige;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center
+}
+
+.Cards{
+    cursor: grab;
+    background-image: var(--linearcolor);
+    overflow: hidden;
+}
+
+
+.innerCard{
+    width: 100%rem;
+    background-image: var(--linearcolor);
+    height: 30rem;
+    display:flex;
+    gap: 3rem;
+    cursor: grab;
+    z-index: 1;
+}
+
+.item{
+    min-height: 40rem;
+    min-width: 30rem;
+    padding: 1rem 1rem;
+}
+
+.item img{
+    width: 30rem;
+    height: 25rem;
+    pointer-events: none;
+    padding: 1rem;
+    border-radius: 3rem;
+    cursor: grab;
+}
+
+
+
+.card .portfolio-item:hover img {
+    margin-left: 15px;
+}
+
+

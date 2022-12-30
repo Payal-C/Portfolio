@@ -1,0 +1,55 @@
+.about{
+    display: flex;
+    gap:1rem;
+    padding: 1rem;
+    height: 49rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.a-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.a-box{
+    height: 35rem;
+    width: 23rem;
+    background-color: white;
+    margin-left: 5rem;
+    margin-top: -0rem;
+    border: 0.5rem solid var(--head);
+    
+}
+
+.a-img img{
+    padding: 1rem;
+    height: 35rem;
+    width: 25rem;
+    margin-left: -30rem;
+    margin-top: 5rem;
+}
+
+.description{
+    padding: 2rem;
+    width: 50%;
+    line-height: 1.5rem;
+    margin-top: 5rem;
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+
+.a-head{
+    font-weight: bold;
+    color: var(--fontcolor);
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.a-list{
+    flex-direction: column;
+    line-height: 2rem;
+}

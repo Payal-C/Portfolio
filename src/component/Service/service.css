@@ -1,0 +1,73 @@
+.service{
+    height: 50rem;
+    width: 100%;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.service > :nth-child(1){
+    margin-left: 40%;
+
+}
+
+
+
+.qualityServices{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    height: 100%;
+    
+}
+
+
+.cards{
+    margin-bottom: 30px;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: ease-out 0.8s;
+}
+
+.cards:hover {
+    box-shadow: inset 800px 0 0 0 var(--head);
+    cursor: pointer;
+    color: var(--headfont);
+}
+
+.cards:hover img{
+    transform: scale(0.7);
+}
+
+.cards h2{
+    font-size: 1.2rem;
+    color: var(--fontcolor);
+}
+
+.cards:hover h2{
+    font-size: 1.2rem;
+    color: white;
+    transition: ease-out 0.8s;
+}
+
+.leftCard{
+    padding: 1.5rem;
+}
+
+.rightCard{
+    padding: 1.5rem;
+}
+
+.cards img{
+    height: 6rem;
+    width:6rem;
+    border:5px solid var(--head);
+    padding: 1.2rem;
+}
+
+.data{
+    padding: 1rem;
+}

@@ -1,0 +1,46 @@
+.Review{
+    background-color: var(--head);
+    width: 100%;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    display: flex;
+}
+
+.r-box{
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 70rem;
+    background-color: var(--headfont);
+    margin-left: 10px;
+    border-radius: 12rem;
+    position: absolute;
+    z-index: 1;
+    padding: 1rem;
+}
+
+.Review img{
+    height: 8rem;
+    width: 8rem;
+    margin-top: -25rem;
+    z-index: 2;
+    border-radius: 3rem;
+}
+
+.r-box p{
+    font-size: 1.8rem;
+    color: var(--fontcolor);
+    margin-top: 4rem;
+    padding: 1rem;  
+}
+ 
+.r-box h2{
+    margin-left: 40%;
+}
+
+.r-box span{
+    margin-left: 45%;
+    color: var(--fontcolor);
+}

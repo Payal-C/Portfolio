@@ -1,0 +1,9 @@
+.Education{
+    position: relative;
+} 
+
+.e-desc .year{
+    background-color:var(--head);
+    padding: 0.6rem;
+    border-radius: 20px 1px 20px 1px;
+}
