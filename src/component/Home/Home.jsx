@@ -22,7 +22,7 @@ function Home() {
               <motion.button className='h-btn'
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}>Contact Me</motion.button>
-            
+             
             </div>
         </div>
         <div className="homeimg">

@@ -44,3 +44,21 @@
 .list .listItem:hover{
     color: #0BCEAF;
 }
+
+@media  screen and (max-width:480px){
+    .navbar{
+        display: flex;
+        position: sticky;
+        top: 0;
+        width: 100%;
+     
+    }
+    .list{
+        margin-left: -10rem;
+    }
+
+    .list a{
+        font-size: 1.7rem;
+        
+  }
+}

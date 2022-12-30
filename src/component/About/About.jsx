@@ -16,7 +16,7 @@ function About() {
         </div>
         <motion.div className="description"
         initial={{ right: "-10%" }}
-        whileInView={{ left: "-8%" }}
+        whileInView={{ left: "-5%" }}
         transition={transition}
         >
             

@@ -53,3 +53,34 @@
 .e-data p{
     font-size: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+    .Exp {
+      flex-direction: column;
+      gap: 7rem;
+      height: 130rem;
+      width: 100%;
+    }
+
+    .e-box{
+        flex-direction: column;
+        gap: 7rem;
+        margin-left: 10rem;
+    }
+
+    .e-container2{
+        margin-top: -7rem;
+    }
+
+    .e-container1{
+        margin-top: 12rem;
+    }
+
+    h1{
+    margin-left: -4rem;    
+    }
+
+    .e-box{
+        transform: scale(1.5);
+    }
+}

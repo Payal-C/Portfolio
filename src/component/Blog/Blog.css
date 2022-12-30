@@ -71,3 +71,33 @@ h2{
     padding: .9rem;
 }
 
+@media screen and (max-width: 480px) {
+    .blog-container {
+      flex-direction: column;
+      gap: 7rem;
+      height: 150rem;
+      margin-top: 5rem;
+      
+    }
+
+    .l-blog, .r-blog{
+        width: 50rem;
+    }
+
+    .l-blog img, .r-blog img
+    {
+    height: 45rem;
+    width: 35rem;
+    
+    }
+
+    .l-blog p, .r-blog p{
+        font-size: 2rem;
+    }
+
+    .blog-container h2{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+}
