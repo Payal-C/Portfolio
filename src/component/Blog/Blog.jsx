@@ -14,7 +14,7 @@ function Blog() {
             <div className="l-blog">
                 <motion.img src={img1} alt="" 
                 initial={{ opacity: 0 }}
-                whileInView={{ opacity: 2 }}
+                 whileInView={{ opacity: 2 }}
                 transition={{ duration: 2 }}
                 />
                     <h2>Lorem ipsum dolor sit </h2>

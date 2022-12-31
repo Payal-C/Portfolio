@@ -12,7 +12,7 @@
     background-image: var(--linearcolor);
     overflow: hidden;
 }
-
+ 
 
 .innerCard{
     width: 100%rem;
@@ -45,4 +45,10 @@
     margin-left: 15px;
 }
 
+@media screen and (max-width: 480px) {
+    h1{
+        margin-left: -4rem;
+    }
+
+}
 

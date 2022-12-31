@@ -3,6 +3,7 @@
     margin-top: 2rem;
     font-family: 'Nunito', sans-serif;
     overflow: hidden;
+    width: 100%;
 }
 
 .skills h1{
@@ -73,6 +74,7 @@ progress::-webkit-progress-value {
       flex-direction: column;
       gap: 1rem;
       height: 70rem;
+      width: 100%;
     }
 
     .inner-skills-box{
@@ -85,4 +87,9 @@ progress::-webkit-progress-value {
         margin-left: 5rem;
         margin-top: -2rem;
     }
+    .skills h1{
+        margin-left: 12%;
+    }
+    
 }
+ 

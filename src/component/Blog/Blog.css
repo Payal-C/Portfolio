@@ -75,13 +75,13 @@ h2{
     .blog-container {
       flex-direction: column;
       gap: 7rem;
-      height: 150rem;
+      height: 160rem;
       margin-top: 5rem;
       
     }
 
     .l-blog, .r-blog{
-        width: 50rem;
+        width: 45rem;
     }
 
     .l-blog img, .r-blog img
@@ -92,12 +92,19 @@ h2{
     }
 
     .l-blog p, .r-blog p{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        padding: 4rem;
+        text-align: center;
     }
 
     .blog-container h2{
         text-align: center;
         font-size: 3rem;
+    }
+
+    .l-blog .btn1,
+    .r-blog .btn1{
+        margin-left: 5rem;
     }
 
 }

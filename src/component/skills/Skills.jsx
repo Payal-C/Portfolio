@@ -6,7 +6,7 @@ function skills() {
   return (
     <div className='skills' id='skills'>
         <h1>My Skills </h1>
-      <div className="inner-skills-box">
+        <div className="inner-skills-box">
         
 
         <div className="coding">

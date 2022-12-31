@@ -12,11 +12,11 @@ function Portfolio() {
   useEffect(()=>{
     console.log(Cards.current.scrollWidth, Cards.current.offsetWidth);
     setwidth(Cards.current.scrollWidth - Cards.current.offsetWidth)
-  },[]);
+  },[]); 
 
   return (
     <div className='port' id='portfolio'>
-        <h1 >My Excellent Portfolio</h1>
+        <h1>My Excellent Portfolio</h1>
         
         <motion.div ref={Cards} className='Cards'>
 
