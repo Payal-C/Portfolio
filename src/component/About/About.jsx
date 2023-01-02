@@ -41,6 +41,7 @@ function About() {
                     >Download CV</motion.button>
                 </a>
         </motion.div>
+
         
     </div>
   )

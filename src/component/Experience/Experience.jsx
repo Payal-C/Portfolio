@@ -1,6 +1,8 @@
 import React from 'react'
 import ExperienceProb from '../ExperienceProb/ExperienceProb';
 import './Experience.css';
+import eImg2 from '../../images/skill-img3.jpg'
+import eImg from '../../images/study.png'
 import { motion} from "framer-motion";
 
 function Experience() {
@@ -13,6 +15,9 @@ function Experience() {
         <div className="e-box">
             <div className="e-container1">  
                 <h1>Education</h1>
+                <div className="e-img">
+                  <img src={eImg} alt="" />
+                </div>
 
                 <motion.div className="e-box1"
                      initial={{ right: "-50%" }}
@@ -52,6 +57,10 @@ function Experience() {
 
             <div className="e-container2">
                 <h1>Experience</h1>
+
+                <div className="e-img1">
+                  <img src={eImg2} alt="" />
+                </div>
                 <motion.div className="e-box1"
                      initial={{ right: "-50%" }}
                      whileInView={{ left: "8%" }}

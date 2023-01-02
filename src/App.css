@@ -1,14 +1,14 @@
 :root{
   --head:#0BCEAF;
-  --head2:#FFB6C1;
+  --head2:#FF500A;
   --headfont:#FFEFD6;
   --box-shadow: 5px 2px 30px #888888;
   --box-shadow2:5px 2px 30px #0BCEAF;
   --box-shadow3:5px 2px 30px #ffff;
   --fontcolor:#666;
-  --linearcolor:linear-gradient(to bottom right, #FFB6C1, #0BCEAF);
-  --linearcolor1:linear-gradient(180deg, #FFB6C1, white);
-  --linearcolor2:linear-gradient(90deg, #0BCEAF, white);
+  --linearcolor:linear-gradient(to bottom right, #ffbf99, #0BCEAF);
+  --linearcolor1:linear-gradient(180deg, #FFB347, white);
+  --linearcolor2:linear-gradient(0deg, white,#0BCEAF, white);
   
 }
 

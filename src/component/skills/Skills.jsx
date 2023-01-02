@@ -1,5 +1,6 @@
 import React from 'react'
 import './skills.css'
+import skillImg from '../../images/gif2.gif';
 import {motion} from 'framer-motion'
 
 function skills() {
@@ -9,7 +10,11 @@ function skills() {
         <div className="inner-skills-box">
         
 
-        <div className="coding">
+        <motion.div className="coding"
+        initial={{ y:"100%" }}
+        whileInView={{ y:"0%" }}
+        transition={{duration : 1}}
+        >
           <h2>Coading skills</h2>
 
           <motion.div 
@@ -57,13 +62,12 @@ function skills() {
           <progress id="file" value="75" max="100"> 32% </progress>
           </motion.div>
           
-          
-       
-          
-          
-        </div>
+        </motion.div>
 
-        <div className="design">
+        <motion.div className="design"
+        initial={{ y:"100%" }}
+        whileInView={{ y:"0%" }}
+        transition={{duration : 1}}>
           <h2>Designing skills</h2>
 
               <motion.div
@@ -93,9 +97,10 @@ function skills() {
               <progress id="file" value="90" max="100"> 32% </progress>
               </motion.div>
 
-        </div>
-        
-
+        </motion.div>
+        <div className="s-img">
+        <img src={skillImg} alt="" /> 
+      </div>
       </div>
 
     </div>

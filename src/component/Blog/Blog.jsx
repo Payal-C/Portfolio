@@ -11,7 +11,10 @@ function Blog() {
         <h1>Latest Articles</h1>
         <div className="blog-container">
             
-            <div className="l-blog">
+            <motion.div className="l-blog"
+            initial={{ y:"50%" }}
+            whileInView={{ y:"0%" }}
+            transition={{duration : 1}}>
                 <motion.img src={img1} alt="" 
                 initial={{ opacity: 0 }}
                  whileInView={{ opacity: 2 }}
@@ -27,9 +30,13 @@ function Blog() {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                     >Read More... </motion.button>
-            </div>
+            </motion.div>
 
-            <div className="r-blog">
+            <motion.div className="r-blog"
+            initial={{ y:"50%" }}
+            whileInView={{ y:"0%" }}
+            transition={{duration : 1}}
+            >
                 <motion.img src={img2} alt=""
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 2 }}
@@ -38,14 +45,14 @@ function Blog() {
                     <h2>Lorem ipsum dolor sit </h2>
                     <div className="blog-content">
                         <p>
-                        Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                        Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis
                         </p>
                     </div>
                     <motion.button className='btn1'
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                     >Read More... </motion.button>
-            </div>
+            </motion.div>
         </div>
 
     </div>

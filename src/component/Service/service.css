@@ -3,15 +3,18 @@
     width: 100%;
     padding: 2rem;
     overflow: hidden;
+    background: url('../../images/service-img1.jpg') no-repeat;
 }
 
+.service h1{
+    color: var(--headfont);
+}
 
 .qualityServices{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
     height: 100%;
     
 }
@@ -24,6 +27,7 @@
     align-items: center;
     box-shadow: inset 0 0 0 0 transparent;
     transition: ease-out 0.8s;
+    padding: 0rem 1rem 0rem 1rem;
 }
 
 .cards:hover {
@@ -38,7 +42,7 @@
 
 .cards h2{
     font-size: 1.2rem;
-    color: var(--fontcolor);
+    color: var(--headfont);
 }
 
 .cards:hover h2{
@@ -62,8 +66,9 @@
     padding: 1.2rem;
 }
 
-.data{
+.cards .data{
     padding: 1rem;
+    color: var(--headfont);
 }
 
 @media screen and (max-width: 480px) {

@@ -5,8 +5,19 @@
     justify-content: center;
     align-items: center;
     font-family: 'Nunito', sans-serif;
-    background-image: var(--linearcolor1);
+    
 }
+
+.e-container1 .e-img{
+    margin: -15rem 0rem 0rem 25rem;
+    padding: 2rem;
+}
+
+.e-container2 .e-img1{
+    margin: -15rem 0rem 0rem 19rem;
+    padding: 2rem;
+}
+
 
 .e-box{
     display: flex;
@@ -33,6 +44,11 @@
     border-left: .2rem solid var(--head);
 }
 
+.e-container1 h1,
+.e-container2 h1
+{
+    margin-left: 10%;
+}
 
 
 .year{
@@ -76,9 +92,16 @@
         margin-top: 12rem;
     }
 
+    .e-container1 .e-img,
+    .e-container2 .e-img1
+    {
+        display: none;
+    }
+    
     .e-container1 h1,
     .e-container2 h1{
         margin-left: -3rem;
+        margin-top: 6rem;
     }
 
     .Exp>:nth-child(1){

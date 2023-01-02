@@ -10,7 +10,7 @@ function Contact() {
         <div className="c-container">
             <motion.img 
             src={img1} alt="" 
-            initial={{ y:"20%" }}
+            initial={{ y:"50%" }}
                whileInView={{ y:"0%" }}
                transition={{duration : 1}}
             /> 
